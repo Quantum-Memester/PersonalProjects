@@ -1,0 +1,9 @@
+
+<div class="content">
+    <div fxLayout="row wrap">
+        <app-project-display fxFlex="33%" *ngFor="let pTitle of pTitles; index as i"
+        [projectTitle]="pTitles[0]"
+        [description]="pDescrips[0]">
+        </app-project-display>
+    </div>
+</div>
